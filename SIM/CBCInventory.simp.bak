@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="9.2" multi-file="no">
+  <meta>
+    <name>CBCInventory</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type="UmlUseCase" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type="AbstractElementGroup" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type="UmlUseCase" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlUseCaseDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management>
+    <persons>
+      <person id="P660b289696c046fb895d97cecf6c8787">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p3715743e776248149e933728fa92bfa9_481819264" name="Model 1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>05/29/2016 01:05:05</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-usecase" id="p082a4448ca3b452a84e95d0cbb98df34_865020743" name="UseCaseDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-description="false" show-field-description="false" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>05/29/2016 01:05:05</creation-date>
+          <change-date>05/29/2016 01:06:21</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di362881381932068214" cid="UC001" type="use-case" name="Add SKU" style-class="" visibility="package" change-tracking-state="added" creator="P660b289696c046fb895d97cecf6c8787" creation-date="05/29/2016 01:06:21">
+            <documentation>
+              <text>
+                <styles>
+                  <style name="S1" font-name="Verdana" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <p s="S1">
+                      <t>An </t>
+                    </p>
+                    <p s="S1">
+                      <t>actor </t>
+                    </p>
+                    <p s="S1">
+                      <t>creates </t>
+                    </p>
+                    <p s="S1">
+                      <t>a </t>
+                    </p>
+                    <p s="S1">
+                      <t>SKU </t>
+                    </p>
+                    <p s="S1">
+                      <t>with </t>
+                    </p>
+                    <p s="S1">
+                      <t>the </t>
+                    </p>
+                    <p s="S1">
+                      <t>following </t>
+                    </p>
+                    <p s="S1">
+                      <t>attributes: </t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>manufacturer, </t>
+                    </p>
+                    <p s="S1">
+                      <t>description, </t>
+                    </p>
+                    <p s="S1">
+                      <t>material, </t>
+                    </p>
+                    <p s="S1">
+                      <t>size, </t>
+                    </p>
+                    <p s="S1">
+                      <t>color, </t>
+                    </p>
+                    <p s="S1">
+                      <t>packaging, </t>
+                    </p>
+                    <p s="S1">
+                      <t>quantity 
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <style class="default" />
+            <use-case />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di362881381932068214" iid="41973c019eac48279ddf789e4771a131" creation-date="05/29/2016 01:06:21" order-index="0" type="entity">
+            <layout ax="213" ay="126" awidth="120" aheight="75" x="213" y="126" width="120" height="75" />
+            <use-case />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
